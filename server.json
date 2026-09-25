@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/leetcode",
   "title": "Leetcode",
-  "description": "LeetCode public profiles, solved counts, daily question, problem detail.",
-  "version": "0.1.0",
+  "description": "LeetCode MCP.",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/leetcode",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-leetcode",

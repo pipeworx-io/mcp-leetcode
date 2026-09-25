@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-leetcode",
-  "version": "0.1.0",
-  "description": "LeetCode public profiles, solved counts, daily question, problem detail.",
+  "version": "0.1.1",
+  "description": "LeetCode MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-leetcode": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "leetcode"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-leetcode"
+    "url": "git+https://github.com/pipeworx-io/mcp-leetcode.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-a78350d17693c1db775240f69828ce48716975dafc0278db65258856a9db015b",
+    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
   }
 }
