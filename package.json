@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-leetcode",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "LeetCode MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-a78350d17693c1db775240f69828ce48716975dafc0278db65258856a9db015b",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-e5a40173c74fc10d52745fa92a84ad9fc6d87862aec10210abaaddc5aa0dbfde",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
