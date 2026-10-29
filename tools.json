@@ -1,0 +1,81 @@
+[
+  {
+    "name": "user_profile",
+    "description": "Fetch a LeetCode user's public profile by username via GraphQL; returns real name, bio, avatar, global ranking, country, company, school, and star rating.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "user_solved",
+    "description": "Solved counts by difficulty.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "user_recent_submissions",
+    "description": "Recent accepted submissions.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "username": {
+          "type": "string"
+        },
+        "limit": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "username"
+      ]
+    }
+  },
+  {
+    "name": "daily_question",
+    "description": "Today's daily coding challenge.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  {
+    "name": "problem",
+    "description": "Problem detail by slug.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "title_slug": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title_slug"
+      ]
+    }
+  },
+  {
+    "name": "problemset_stats",
+    "description": "Total problems by difficulty.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {}
+    }
+  }
+]
